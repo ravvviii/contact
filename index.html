@@ -14,10 +14,12 @@
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", sans-serif;
+  background-image: url(Chandigarh-University.jpg) no-repeat;
 }
 
 .container {
-  background-color: #e97d09ab;
+  /* background-color: #d70101ab; */
+  background-image: url(Chandigarh-University.jpg) no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,19 +28,19 @@
 }
 
 form {
-  background-color: white;
+  background-color: #bdbbbb;
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
   width: 60%;
   max-width: 600px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
-form h2 {
+form h1 {
   text-align: center;
-  color: #e65b00;
-  margin-bottom: 20px;
+color: #000;
+margin-bottom: 20px;
 }
 
 form input, textarea {
@@ -78,11 +80,11 @@ form button:hover {
 
     <div class="container">
         <form>
-            <h2> GET IN TOUCH </h2>
+            <h1> CONTACT US! </h1>
             <input type="text" id="name" placeholder="Enter Your Name" required>
             <input type="email" id="email" placeholder="Enter Your Email" required>
             <input type="phone" id="phone" placeholder="Enter Your Phone Number" required>
-            <input type="text" id="coupon" placeholder="Enter Coupen Code if required" required>
+            <!-- <input type="text" id="coupon" placeholder="Enter Coupen Code if required" required> -->
 
             <textarea id="message" rows="4" placeholder="Write Something"></textarea>
             <button type="submit">Send</button>
